@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Введите адрес RSS-ленты"
+        android:editable="false"
+        android:textAlignment="center"
+        android:background="#63B8FF"
+        android:textColor="#000"
+        android:textSize="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:editable="true"
+        android:textAlignment="center"
+        android:background="#c8dcef"
+        android:textColor="#000"
+        android:textSize="20dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:width="20dp"
+        android:onClick="onClick"
+        android:text="Ok"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:paddingTop="7dp"
+        android:background="#63B8FF"
+        android:layout_gravity="center_horizontal">
+    </Button>
+</LinearLayout>

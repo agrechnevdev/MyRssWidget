@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyWidgetRss</string>
+    <string name="action_settings">Settings</string>
+    <string name="widget_name">Widget RSS</string>
+    <string name="widget_header">Заголовок</string>
+    <string name="widget_text">Текст новости</string>
+</resources>

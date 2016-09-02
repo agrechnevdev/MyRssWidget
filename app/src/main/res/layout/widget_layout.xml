@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="#82bbdc"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="10dp" />
+
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/headerText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:text="@string/widget_text"
+        android:textColor="#000"
+        android:textSize="10dp" />
+
+    <ImageButton
+        android:id="@+id/prev"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mainText"
+        android:layout_gravity="left"
+        android:clickable="true"
+        android:src="@drawable/prev_40x40"
+        android:adjustViewBounds="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mainText"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:src="@drawable/next_40x40"
+        android:adjustViewBounds="true"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mainText"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/settings_40x40" />
+</RelativeLayout>
